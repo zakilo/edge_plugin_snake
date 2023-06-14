@@ -1,0 +1,16 @@
+{
+    "name": "Crazy Snake",
+    "version": "1.0",
+    "description": "A crazy snake game.",
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["scripts.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
